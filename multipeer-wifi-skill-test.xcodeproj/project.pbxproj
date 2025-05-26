@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BB8828422DE3DDF8004B589F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8828292DE3DDF6004B589F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8828302DE3DDF7004B589F;
+			remoteInfo = "multipeer-wifi-skill-test";
+		};
+		BB88284C2DE3DDF8004B589F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8828292DE3DDF6004B589F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8828302DE3DDF7004B589F;
+			remoteInfo = "multipeer-wifi-skill-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB8828312DE3DDF7004B589F /* multipeer-wifi-skill-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multipeer-wifi-skill-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8828412DE3DDF8004B589F /* multipeer-wifi-skill-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multipeer-wifi-skill-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB88284B2DE3DDF8004B589F /* multipeer-wifi-skill-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multipeer-wifi-skill-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BB88285F2DE3DE3F004B589F /* Exceptions for "multipeer-wifi-skill-test" folder in "multipeer-wifi-skill-test" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BB8828302DE3DDF7004B589F /* multipeer-wifi-skill-test */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BB8828332DE3DDF7004B589F /* multipeer-wifi-skill-test */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BB88285F2DE3DE3F004B589F /* Exceptions for "multipeer-wifi-skill-test" folder in "multipeer-wifi-skill-test" target */,
+			);
+			path = "multipeer-wifi-skill-test";
+			sourceTree = "<group>";
+		};
+		BB8828442DE3DDF8004B589F /* multipeer-wifi-skill-testTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "multipeer-wifi-skill-testTests";
+			sourceTree = "<group>";
+		};
+		BB88284E2DE3DDF8004B589F /* multipeer-wifi-skill-testUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "multipeer-wifi-skill-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB88282E2DE3DDF7004B589F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB88283E2DE3DDF8004B589F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8828482DE3DDF8004B589F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB8828282DE3DDF6004B589F = {
+			isa = PBXGroup;
+			children = (
+				BB8828332DE3DDF7004B589F /* multipeer-wifi-skill-test */,
+				BB8828442DE3DDF8004B589F /* multipeer-wifi-skill-testTests */,
+				BB88284E2DE3DDF8004B589F /* multipeer-wifi-skill-testUITests */,
+				BB8828322DE3DDF7004B589F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB8828322DE3DDF7004B589F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB8828312DE3DDF7004B589F /* multipeer-wifi-skill-test.app */,
+				BB8828412DE3DDF8004B589F /* multipeer-wifi-skill-testTests.xctest */,
+				BB88284B2DE3DDF8004B589F /* multipeer-wifi-skill-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB8828302DE3DDF7004B589F /* multipeer-wifi-skill-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8828552DE3DDF8004B589F /* Build configuration list for PBXNativeTarget "multipeer-wifi-skill-test" */;
+			buildPhases = (
+				BB88282D2DE3DDF7004B589F /* Sources */,
+				BB88282E2DE3DDF7004B589F /* Frameworks */,
+				BB88282F2DE3DDF7004B589F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BB8828332DE3DDF7004B589F /* multipeer-wifi-skill-test */,
+			);
+			name = "multipeer-wifi-skill-test";
+			packageProductDependencies = (
+			);
+			productName = "multipeer-wifi-skill-test";
+			productReference = BB8828312DE3DDF7004B589F /* multipeer-wifi-skill-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB8828402DE3DDF8004B589F /* multipeer-wifi-skill-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8828582DE3DDF8004B589F /* Build configuration list for PBXNativeTarget "multipeer-wifi-skill-testTests" */;
+			buildPhases = (
+				BB88283D2DE3DDF8004B589F /* Sources */,
+				BB88283E2DE3DDF8004B589F /* Frameworks */,
+				BB88283F2DE3DDF8004B589F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8828432DE3DDF8004B589F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB8828442DE3DDF8004B589F /* multipeer-wifi-skill-testTests */,
+			);
+			name = "multipeer-wifi-skill-testTests";
+			packageProductDependencies = (
+			);
+			productName = "multipeer-wifi-skill-testTests";
+			productReference = BB8828412DE3DDF8004B589F /* multipeer-wifi-skill-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB88284A2DE3DDF8004B589F /* multipeer-wifi-skill-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB88285B2DE3DDF8004B589F /* Build configuration list for PBXNativeTarget "multipeer-wifi-skill-testUITests" */;
+			buildPhases = (
+				BB8828472DE3DDF8004B589F /* Sources */,
+				BB8828482DE3DDF8004B589F /* Frameworks */,
+				BB8828492DE3DDF8004B589F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB88284D2DE3DDF8004B589F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB88284E2DE3DDF8004B589F /* multipeer-wifi-skill-testUITests */,
+			);
+			name = "multipeer-wifi-skill-testUITests";
+			packageProductDependencies = (
+			);
+			productName = "multipeer-wifi-skill-testUITests";
+			productReference = BB88284B2DE3DDF8004B589F /* multipeer-wifi-skill-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB8828292DE3DDF6004B589F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BB8828302DE3DDF7004B589F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BB8828402DE3DDF8004B589F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BB8828302DE3DDF7004B589F;
+					};
+					BB88284A2DE3DDF8004B589F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BB8828302DE3DDF7004B589F;
+					};
+				};
+			};
+			buildConfigurationList = BB88282C2DE3DDF6004B589F /* Build configuration list for PBXProject "multipeer-wifi-skill-test" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB8828282DE3DDF6004B589F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BB8828322DE3DDF7004B589F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB8828302DE3DDF7004B589F /* multipeer-wifi-skill-test */,
+				BB8828402DE3DDF8004B589F /* multipeer-wifi-skill-testTests */,
+				BB88284A2DE3DDF8004B589F /* multipeer-wifi-skill-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB88282F2DE3DDF7004B589F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB88283F2DE3DDF8004B589F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8828492DE3DDF8004B589F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB88282D2DE3DDF7004B589F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB88283D2DE3DDF8004B589F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8828472DE3DDF8004B589F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB8828432DE3DDF8004B589F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8828302DE3DDF7004B589F /* multipeer-wifi-skill-test */;
+			targetProxy = BB8828422DE3DDF8004B589F /* PBXContainerItemProxy */;
+		};
+		BB88284D2DE3DDF8004B589F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8828302DE3DDF7004B589F /* multipeer-wifi-skill-test */;
+			targetProxy = BB88284C2DE3DDF8004B589F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB8828532DE3DDF8004B589F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB8828542DE3DDF8004B589F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB8828562DE3DDF8004B589F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"multipeer-wifi-skill-test/Preview Content\"";
+				DEVELOPMENT_TEAM = GWAR5P8XSY;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "multipeer-wifi-skill-test/Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "The app will ask your permission to discover nearby devices for chatting with them";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madityafr.multipeer-wifi-skill-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB8828572DE3DDF8004B589F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"multipeer-wifi-skill-test/Preview Content\"";
+				DEVELOPMENT_TEAM = GWAR5P8XSY;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "multipeer-wifi-skill-test/Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "The app will ask your permission to discover nearby devices for chatting with them";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madityafr.multipeer-wifi-skill-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB8828592DE3DDF8004B589F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CB84CWJ6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madityafr.multipeer-wifi-skill-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multipeer-wifi-skill-test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/multipeer-wifi-skill-test";
+			};
+			name = Debug;
+		};
+		BB88285A2DE3DDF8004B589F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CB84CWJ6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madityafr.multipeer-wifi-skill-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multipeer-wifi-skill-test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/multipeer-wifi-skill-test";
+			};
+			name = Release;
+		};
+		BB88285C2DE3DDF8004B589F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CB84CWJ6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madityafr.multipeer-wifi-skill-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "multipeer-wifi-skill-test";
+			};
+			name = Debug;
+		};
+		BB88285D2DE3DDF8004B589F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CB84CWJ6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madityafr.multipeer-wifi-skill-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "multipeer-wifi-skill-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB88282C2DE3DDF6004B589F /* Build configuration list for PBXProject "multipeer-wifi-skill-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8828532DE3DDF8004B589F /* Debug */,
+				BB8828542DE3DDF8004B589F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8828552DE3DDF8004B589F /* Build configuration list for PBXNativeTarget "multipeer-wifi-skill-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8828562DE3DDF8004B589F /* Debug */,
+				BB8828572DE3DDF8004B589F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8828582DE3DDF8004B589F /* Build configuration list for PBXNativeTarget "multipeer-wifi-skill-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8828592DE3DDF8004B589F /* Debug */,
+				BB88285A2DE3DDF8004B589F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB88285B2DE3DDF8004B589F /* Build configuration list for PBXNativeTarget "multipeer-wifi-skill-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB88285C2DE3DDF8004B589F /* Debug */,
+				BB88285D2DE3DDF8004B589F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB8828292DE3DDF6004B589F /* Project object */;
+}
